@@ -1,0 +1,590 @@
+/* X-Small */
+@media only screen and (max-width:576px) {
+
+    /* search */
+    #search-btn {
+        width: 35px;
+    }
+
+    .search-btn {
+        padding-top: 6px;
+    }
+
+    .search-content {
+        height: 30px;
+        padding: 0vh 5vw;
+    }
+
+    /* nav logo */
+    #logo {
+        width: 130px;
+    }
+
+    ::placeholder {
+        font-size: medium;
+    }
+
+    h6.text-center {
+        display: block;
+        font-size: 10px;
+        padding: 0 0 8px 0;
+    }
+
+    h1.text-center {
+        display: block;
+        font-size: 35px;
+        line-height: 25px;
+    }
+
+    h2.text-center {
+        font-size: 33px;
+        line-height: 20px;
+    }
+
+    h2.text-center::after {
+        border-bottom: 5px solid #ff497c;
+        width: 69%;
+        left: 10.5vw;
+        top: 5vh;
+    }
+
+    /* Carousal */
+    #carousel-button {
+        font-size: 8px;
+        margin-top: 20px;
+        padding: 8px 16px;
+    }
+
+    /* About */
+    .about-img {
+        width: 97%;
+        margin: 60px 0px 0 8px;
+    }
+
+    .main-about-2 h2 span::after {
+        width: 40%;
+        left: 73px;
+        bottom: 13px;
+    }
+
+    /* Services */
+    .awesome-span::after {
+        width: 100%;
+        left: 0vw;
+    }
+
+    /* Loading */
+    .Loading {
+        height: 590px;
+    }
+
+    .loading-txt span.sp-large::after {
+        border-bottom: 2vh solid #ff497c;
+        width: 100%;
+        left: 0vw;
+        bottom: 0.9vh;
+    }
+
+    .loading-txt button {
+        padding: 13px 35px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    #progress-bg,
+    .progress-bar {
+        border-radius: 5px;
+        height: 7px;
+    }
+
+    /* Asked Question */
+    .asked-Q-txt {
+        padding: 50px 0 0 0;
+    }
+
+    .FREQUENTLY {
+        padding-top: 30px;
+        font-size: small;
+        font-weight: 700;
+        letter-spacing: 0.5cap;
+    }
+
+    .asked-Q-txt h3 {
+        font-size: x-large;
+    }
+
+    .asked-Q-img {
+        display: none;
+    }
+
+    #accordion-button {
+        width: 100%;
+    }
+
+    #panelsStayOpen-collapseOne,
+    #panelsStayOpen-collapseTwo,
+    #panelsStayOpen-collapseThree {
+        width: 100%;
+    }
+
+    /* Carousal card link button */
+    #card-carousel-btn i {
+        transform: translate(-1.6vw, -2.4vh);
+    }
+
+    #carousel-main .carousel-caption h6 {
+        font-size: small;
+        padding: 50vh 0 0 0;
+    }
+
+    #carousel-main .carousel-caption h4 {
+        font-size: large;
+        font-weight: 800;
+    }
+
+}
+
+/* Small */
+@media only screen and (min-width:577px) and (max-width:768px) {
+
+    /* search */
+    #search-btn {
+        width: 42px;
+        padding-bottom: 3px;
+    }
+
+    .search-btn {
+        padding-top: 6px;
+    }
+
+    .search-content {
+        height: 30px;
+        padding: 0vh 3vw;
+    }
+
+    /* nav logo */
+    #logo {
+        width: 150px;
+    }
+
+    h6.text-center {
+        display: block;
+        font-size: x-small;
+    }
+
+    h1.text-center {
+        display: block;
+        font-size: 38px;
+        line-height: 35px;
+    }
+
+    h2.text-center {
+        display: block;
+        font-size: 38px;
+        line-height: 30px;
+    }
+
+    h2.text-center::after {
+        border-bottom: 6px solid #ff497c;
+        width: 67%;
+        left: 11.5vw;
+        top: 6vh;
+    }
+
+    /* Carousal */
+    #carousel-button {
+        font-size: 10px;
+        margin-top: 20px;
+        padding: 8px 16px;
+    }
+
+
+    /* About */
+    .about-img {
+        width: 97%;
+        margin: 60px 0px 0 8px;
+    }
+
+    .main-about-2 h2 span::after {
+        width: 33%;
+        left: 73px;
+        bottom: 12px;
+    }
+
+    /* Services */
+    .awesome-span::after {
+        width: 100%;
+        left: 0vw;
+    }
+
+    /* Loading */
+    .Loading {
+        height: 590px;
+    }
+
+    .loading-txt span.sp-large::after {
+        border-bottom: 2vh solid #ff497c;
+        width: 100%;
+        left: 0vw;
+        bottom: 0.9vh;
+    }
+
+    .loading-txt button {
+        padding: 13px 35px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    #progress-bg,
+    .progress-bar {
+        border-radius: 5px;
+        height: 7px;
+    }
+
+    /* Asked Question */
+
+    .FREQUENTLY {
+        padding-top: 30px;
+        font-size: small;
+        font-weight: 700;
+        letter-spacing: 0.5cap;
+    }
+
+    .asked-Q-txt h3 {
+        font-size: x-large;
+    }
+
+    .asked-Q-img {
+        display: none;
+    }
+
+    /* Carousal card link button */
+    #card-carousel-btn i {
+        transform: translate(-1.2vw, -2.5vh);
+    }
+
+    #carousel-main .carousel-caption h6 {
+        font-size: small;
+        padding: 50vh 5vw 0 0;
+    }
+
+    #carousel-main .carousel-caption h4 {
+        font-size: large;
+        font-weight: 800;
+    }
+
+
+}
+
+/* Medium */
+@media only screen and (min-width:769px) and (max-width:992px) {
+
+    /* search */
+    #search-btn {
+        width: 42px;
+        padding-bottom: 3px;
+    }
+
+    .search-btn {
+        padding-top: 6px;
+    }
+
+    .search-content {
+        height: 30px;
+        padding: 0vh 3vw;
+    }
+
+    /* nav logo */
+    #logo {
+        width: 140px;
+    }
+
+    h6.text-center {
+        display: block;
+        font-size: small;
+    }
+
+    h1.text-center {
+        display: block;
+        font-size: 50px;
+        line-height: 75px;
+    }
+
+    h2.text-center {
+        display: block;
+        font-size: 50px;
+        line-height: 40px;
+    }
+
+    h2.text-center::after {
+        border-bottom: 7px solid #ff497c;
+        width: 41vw;
+        left: 14vw;
+        top: 9vh;
+    }
+
+    /* Carousal */
+    #carousel-button {
+        font-size: 14px;
+        margin-top: 25px;
+        padding: 11px 22px;
+    }
+
+
+    /* About */
+    .about-img {
+        width: 75%;
+        margin: 60px 0px 0 80px;
+        overflow-x: hidden;
+    }
+
+    .main-about-2 h2 span::after {
+        width: 23%;
+        left: 73px;
+        bottom: 11px;
+    }
+
+    /* Services */
+    span.awesome-span::after {
+        border-bottom: 1.5vh solid #ff497c;
+        width: 72.5%;
+        left: 6.5vw;
+    }
+
+    /* Loading */
+    .Loading {
+        height: 590px;
+    }
+
+    .loading-txt span.sp-large::after {
+        border-bottom: 2vh solid #ff497c;
+        width: 100%;
+        left: 0vw;
+        bottom: 0.9vh;
+    }
+
+    .loading-txt button {
+        padding: 13px 35px;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    #progress-bg,
+    .progress-bar {
+        border-radius: 5px;
+        height: 7px;
+    }
+
+    /* Asked Question */
+
+    .FREQUENTLY {
+        padding-top: 30px;
+        font-size: small;
+        font-weight: 700;
+        letter-spacing: 0.5cap;
+    }
+
+    #accordion-button {
+        width: 90%;
+    }
+
+    #panelsStayOpen-collapseOne,
+    #panelsStayOpen-collapseTwo,
+    #panelsStayOpen-collapseThree {
+        width: 90%;
+    }
+
+    .asked-Q-txt h3 {
+        font-size: x-large;
+    }
+
+    .asked-Q-img {
+        display: none;
+    }
+
+    /* Carousal card link button */
+    #card-carousel-btn i {
+        transform: translate(-0.9vw, -2.2vh);
+    }
+
+    #carousel-main .carousel-caption h6 {
+        font-size: small;
+        padding: 45vh 0 0 0;
+    }
+
+    #carousel-main .carousel-caption h4 {
+        font-size: large;
+        font-weight: 800;
+    }
+
+      /* OverLay */
+      .over-lay>div>h2{
+        font-size: 3.5cap;
+      }
+      .over-lay>div>h5{
+        font-size: 3cap;
+      }
+      .over-lay>div>h2,h5 {
+    color: white;
+    font-weight: 700;
+    line-height: 1;
+}
+      
+
+}
+
+/* Large */
+@media only screen and (min-width:993px) and (max-width:1200px) {
+
+    /* search */
+    #search-btn {
+        width: 42px;
+        padding-bottom: 2px;
+    }
+
+    .search-btn {
+        padding-top: 7.5px;
+    }
+
+    .search-content {
+        height: 35px;
+        padding: 0vh 3vw;
+    }
+
+    /* nav logo */
+    #logo {
+        width: 230px;
+    }
+
+    #nav-btn {
+        /* height: 40px; */
+        padding: 7px 20px;
+        width: auto;
+    }
+
+    h6.text-center {
+        display: block;
+        font-size: small;
+    }
+
+    h1.text-center {
+        display: block;
+        font-size: 60px;
+        line-height: 75px;
+    }
+
+    h2.text-center {
+        display: block;
+        font-size: 60px;
+    }
+
+    h2.text-center::after {
+        border-bottom: 7px solid #ff497c;
+        width: 58%;
+        left: 14.5vw;
+        bottom: 3vh;
+    }
+
+    /* Carousal */
+    #carousel-button {
+        font-size: 14px;
+        margin-top: 25px;
+        padding: 11px 22px;
+    }
+
+
+    /* About */
+    .about-img {
+        width: 75%;
+        margin: 60px 0px 0 0px;
+    }
+
+    .main-about-2 h2 span::after {
+        border-bottom: 1.5vh solid #ff497c;
+        width: 40%;
+        left: 73px;
+        bottom: 11px;
+    }
+
+    /* Services */
+    span.awesome-span::after {
+        border-bottom: 1.5vh solid #ff497c;
+        width: 100%;
+        left: 0vw;
+    }
+
+    /* Loading */
+    .Loading {
+        height: 500px;
+    }
+
+    .loading-txt span.sp-large::after {
+        border-bottom: 2vh solid #ff497c;
+        width: 100%;
+        left: 0vw;
+        bottom: 0.9vh;
+    }
+
+    .loading-txt button {
+        padding: 13px 35px;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    #progress-bg,
+    .progress-bar {
+        border-radius: 5px;
+        height: 7px;
+    }
+
+    /* Asked Question */
+
+    .FREQUENTLY {
+        padding-top: 30px;
+        font-size: small;
+        font-weight: 700;
+        letter-spacing: 0.5cap;
+    }
+
+    #accordion-button {
+        width: 90%;
+    }
+
+    #panelsStayOpen-collapseOne,
+    #panelsStayOpen-collapseTwo,
+    #panelsStayOpen-collapseThree {
+        width: 90%;
+    }
+
+    .asked-Q-txt h3 {
+        font-size: x-large;
+    }
+
+    .asked-Q-img {
+        display: none;
+    }
+
+    /* Carousal card link button */
+    #card-carousel-btn i {
+        transform: translate(-0.8vw, -2vh);
+    }
+
+    #carousel-main .carousel-caption h6 {
+        font-size: small;
+        padding: 45vh 0 0 0;
+    }
+
+    #carousel-main .carousel-caption h4 {
+        font-size: large;
+        font-weight: 800;
+    }
+
+    /* OverLay */
+    #overlay-h2::after {
+        border-bottom: 1.5vh solid #ff497c;
+        width: 49%;
+        left: 10.7vw;
+        bottom: 5.5vh;
+    }
+
+}
